@@ -6,7 +6,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title></title>
+		<title>James Alleman</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -24,15 +24,15 @@
 		<nav class="pushy pushy-right">
 	    <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="#activities">Activities</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html#activities">Activities</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
         <p class="pushy__title">Publications</p>
-        <li><a href="#">Papers</a></li>
-        <li><a href="#">Books</a></li>
-        <li><a href="#">Book Reviews</a></li>
+        <li><a href="publications.html">Papers</a></li>
+        <li><a href="publications.html#books">Books</a></li>
+        <li><a href="publications.html#book-reviews">Book Reviews</a></li>
         <p class="pushy__title">Photography</p>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Books</a></li>
+        <li><a href="photography.html">Gallery</a></li>
+        <li><a href="photography.html#photography-books">Books</a></li>
 	    </ul>
 		</nav>
 		<!-- Site Overlay -->
@@ -40,7 +40,11 @@
 		<!-- Main Content -->
 		<div id="container">
 	    <!-- Menu Button -->
-	    <div class="menu-btn"><span class="open-close"><img class="hamburger" src="img/hamburger.svg"></span><span class="menu-text">Menu</span></div>
+	    <div class="menu-btn">
+	    	<div id="menu-open">
+	    		<span class="open-close"><img class="hamburger" src="img/hamburger.svg"></span><span class="menu-text">Menu</span>
+	    	</div>
+	    </div>
 
 			<a href="index.html">
 		    <div class="logo">James<span>Alleman</span></div>
@@ -69,39 +73,42 @@
 
 				<!-- SADIE IMG EFFECT START -->
 				<div id="image-links">
-					<figure class="effect-sadie">
-						<img src="img/typewriter-1.jpg" alt="img01"/>
-						<figcaption>
-							<h2>PAPERS <span></span></h2>
-							<p></p>
-							<a href="#">View more</a>
-						</figcaption>
-					</figure>
 
-					<figure class="effect-sadie">
-						<img src="img/book-1.jpg" alt="img01"/>
-						<figcaption>
-							<h2>BOOKS <span></span></h2>
-							<p></p>
-							<a href="#">View more</a>
-						</figcaption>
-					</figure>
+					<a href="publications.html"><figure class="effect-sadie">
+							<img src="img/typewriter-1.jpg" alt="img01"/>
+							<figcaption>
+								<h2>PAPERS <span></span></h2>
+								<p></p>
+							</figcaption>
+						</figure></a>
 
-					<figure class="effect-sadie">
-						<img src="img/camera-1.jpg" alt="img01"/>
-						<figcaption>
-							<h2>PHOTO GALLERY<span></span></h2>
-							<p></p>
-							<a href="#">View more</a>
-						</figcaption>
-					</figure>
+					<a href="publications.html#books"><figure class="effect-sadie">
+							<img src="img/book-1.jpg" alt="img01"/>
+							<figcaption>
+								<h2>BOOKS <span></span></h2>
+								<p></p>
+							</figcaption>
+						</figure>
+					</a>
+
+					<a href="photography.html">
+						<figure class="effect-sadie">
+							<img src="img/camera-1.jpg" alt="img01"/>
+							<figcaption>
+								<h2>PHOTO GALLERY<span></span></h2>
+								<p></p>
+							</figcaption>
+						</figure>
+					<a>
+
 				</div>
+
 				<!-- SADIE IMG EFFECT END -->
 
 
 				<!-- ACTIVITIES -->
-				<hr id="activities">
-				<h1>Activities</h1>
+				<hr>
+				<h1><a name="activities">Activities</a></h1>
 				<ul id="activities-list">
 					<li><a href="http://www8.gsb.columbia.edu/citi/events/2010/mobilemoney2" target="_blank">Mobile Transactions and Electronic Payments (Mobile-Money) 2 April 2010, Columbia University</a></li>
 					<li><a href="http://www.its2010tokyo.com/index.html" target="_blank">International Telecommunications Society 18th. Biennial Conference, Tokyo, 27-30 June 2010</a></li>
@@ -113,8 +120,8 @@
 				</ul>
 
 				<!-- CONTACT -->
-				<hr id="contact">
-				<h1>Contact</h1>
+				<hr>
+				<h1><a name="contact">Contact</a></h1>
 					<ul id="contact-list">
 						<li>Email: <a href='ma&#105;&#108;&#116;&#111;&#58;j%61m&#37;65s%2E%&#54;1lle%&#54;Da&#110;&#64;%63o%6&#67;orad&#37;6F&#37;&#50;Eed&#117;'>j&#97;mes&#46;allem&#97;n&#64;&#99;&#111;l&#111;ra&#100;o&#46;ed&#117;</a></li>
 						<li>Phone: +1 303-442-4465</li>
@@ -130,13 +137,13 @@
   			<hr id="footer-hr">
   	    <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="#activities">Activities</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#">Papers</a></li>
-          <li><a href="#">Books</a></li>
-          <li><a href="#">Book Reviews</a></li>
-          <li><a href="#">Photo Gallery</a></li>
-          <li><a href="#">Photography Books</a></li>
+          <li><a href="index.html#activities">Activities</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="publications.html">Papers</a></li>
+          <li><a href="publications.html#books">Books</a></li>
+          <li><a href="publications.html#book-reviews">Book Reviews</a></li>
+          <li><a href="photography.html">Photo Gallery</a></li>
+          <li><a href="photography.html#photography-books">Photography Books</a></li>
   	    </ul>
   	    <a id="footer-email" href='ma&#105;&#108;&#116;&#111;&#58;j%61m&#37;65s%2E%&#54;1lle%&#54;Da&#110;&#64;%63o%6&#67;orad&#37;6F&#37;&#50;Eed&#117;'>j&#97;mes&#46;allem&#97;n&#64;&#99;&#111;l&#111;ra&#100;o&#46;ed&#117;</a>
   	    <p>Copyright © 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2006, 2008, 2009 & 2010
