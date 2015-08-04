@@ -105,12 +105,13 @@ main {
 
 /*===============MAIN CONTENT START*/
 main {
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 main p {
   font-weight: 300;
   font-size: 16px;
+  padding: 0 20px;
 }
 main a {
   text-decoration: none;
