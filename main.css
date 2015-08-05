@@ -147,6 +147,7 @@ h1 a:hover {
   color: #000;
 }
 
+
 main ul#home-links {
   list-style-type: none;
   padding: 0;
@@ -187,6 +188,10 @@ ul#activities-list {
   padding: 0;
 }
 
+ul#activities-list li{
+  padding: 7px 0;
+}
+
 ul#contact-list {
   list-style-type: none;
   text-align: center;
@@ -194,6 +199,19 @@ ul#contact-list {
 }
 
 /*===============MAIN CONTENT END*/
+
+/*===============PUBLICATIONS START*/
+
+.publications-content {
+  padding: 0 15px;
+  list-style-type: none;
+}
+
+.publications-content li {
+  padding: 7px 0;
+}
+
+/*===============PUBLICATIONS END*/
 
 /*===============FOOTER START*/
 footer {
@@ -245,7 +263,6 @@ footer a#footer-email {
   padding-top: 10px;
 }
 /*===============FOOTER END*/
-
 
 
 
