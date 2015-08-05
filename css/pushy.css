@@ -18,7 +18,8 @@
     -webkit-box-shadow: inset 5px 0 3px -4px rgba(0, 0, 0, .7);
     -moz-box-shadow: inset 5px 0 3px -4px rgba(0, 0, 0, .7);
     box-shadow: inset 5px 0 3px -4px rgba(0, 0, 0, .7);
-    overflow: auto;
+    overflow: scroll-x;
+    overflow-x: scroll;
     -webkit-overflow-scrolling: touch; /* enables momentum scrolling in iOS overflow elements */
 }
 
