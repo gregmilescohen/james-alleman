@@ -260,6 +260,12 @@ footer a#footer-email {
   text-align: center;
   padding-top: 10px;
 }
+
+#counter {
+  text-align: center;
+  padding: 7px;
+  margin: auto;
+}
 /*===============FOOTER END*/
 
 
