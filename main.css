@@ -4,10 +4,13 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 main {
-  padding-top: 70px;
+  padding-top: 30px;
 }
 
 /*===============NAVIGATION START*/
+a {
+  text-decoration: none;
+}
 
 .slideout-menu {
   position: fixed;
@@ -68,7 +71,7 @@ main {
 .menu-btn {
   width: 100%;
   opacity: 0.95;
-  position: fixed;
+  /* position: fixed; */
   color: white;
   font-size: 18px;
   /* opacity: 0.9; */
@@ -80,25 +83,39 @@ main {
 .menu-text {
   right: 0;
   display: inline-block;
-  position: fixed;
+  position: absolute;
   cursor: pointer;
   margin: 12px 70px 0 0;
 }
 
 .logo {
-  position: fixed;
-  left: 0;
+  /*position: fixed; */
+  /* left: 0; */
   color: white;
   font-size: 28px;
-  letter-spacing: 2px;
-  margin: 6px 17px 0px 23px;
+  letter-spacing: 4px;
+  /* margin: 6px 17px 0px 23px; */
   z-index: 9999999;
   font-weight: 200;
   text-transform: uppercase;
+  text-align: center;
+  padding: 57px 0;
+  /* text-decoration: none; */
+  /* border-bottom: none; */
 }
 
 .logo span {
   font-weight: 700;
+}
+
+#menu-open {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 7px;
+  /* z-index: 99999999999999999; */
+  /* display: block; */
+  /* width: 190px; */
 }
 
 #menu-open:hover {
@@ -114,7 +131,7 @@ main {
 }
 main p {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   padding: 0 20px;
 }
 main a {
@@ -129,6 +146,15 @@ main a:hover {
   display: block;
   margin: auto;
   padding: 30px 0px 30px 0px;
+}
+
+#alleman {
+  display: block;
+  position: absolute;
+  width: 99.5px;
+  /* padding: 22px 22px 30px 25px; */
+  left: 0;
+  /* border-radius: 7px; */
 }
 
 h1 {
@@ -272,6 +298,18 @@ footer a#footer-email {
 
 
 /*===============MEDIA QUERIES*/
+@media screen and (max-width: 600px) {
+  #alleman {
+    width: 69px;
+  }
+  .logo {
+    padding: 34px 0;
+  }
+  #menu-open {
+    margin-top: 29px;
+  }
+}
+
 @media screen and (min-width: 650px) {
   main {
     width: 75%;
