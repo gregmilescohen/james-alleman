@@ -298,15 +298,29 @@ footer a#footer-email {
 
 
 /*===============MEDIA QUERIES*/
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 700px) {
   #alleman {
-    width: 69px;
+    width: 49px;
   }
   .logo {
-    padding: 34px 0;
+    padding: 19px 0;
   }
   #menu-open {
-    margin-top: 29px;
+    margin-top: 13px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #alleman {
+    display: none;
+  }
+  .logo {
+    padding: 11px 0 11px 15px;
+    /* left: 0; */
+    text-align: left;
+  }
+  #menu-open {
+    margin-top: 6px;
   }
 }
 
