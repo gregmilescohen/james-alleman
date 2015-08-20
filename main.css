@@ -92,20 +92,20 @@ a {
   /*position: fixed; */
   /* left: 0; */
   color: white;
-  font-size: 28px;
+  font-size: 32px;
   letter-spacing: 4px;
   /* margin: 6px 17px 0px 23px; */
   z-index: 9999999;
-  font-weight: 200;
+  font-weight: 400;
   text-transform: uppercase;
   text-align: center;
-  padding: 57px 0;
+  padding: 77px 0;
   /* text-decoration: none; */
   /* border-bottom: none; */
 }
 
 .logo span {
-  font-weight: 700;
+  font-size: 24px;
 }
 
 #menu-open {
@@ -153,12 +153,16 @@ main a:hover {
   position: absolute;
   width: 99.5px;
   /* padding: 22px 22px 30px 25px; */
-  left: 0;
-  /* border-radius: 7px; */
+  left: 10%;
+  top: 24px;
 }
 
 h1 {
   text-align: center;
+}
+
+h1.heading-left {
+  text-align: left;
 }
 
 h1 a {
@@ -198,6 +202,14 @@ main ul#home-links li a:hover {
   display: none;
 }
 
+figcaption {
+  font-size: 24px;
+}
+
+figcaption span {
+  font-size: 20px;
+}
+
 main #hr2 {
   display: none;
 }
@@ -206,9 +218,10 @@ main #last-hr {
   display: none;
 }
 
+
 ul#activities-list {
   list-style-type: none;
-  text-align: center;
+  /*text-align: center;*/
   padding: 0;
 }
 
@@ -218,7 +231,7 @@ ul#activities-list li{
 
 ul#contact-list {
   list-style-type: none;
-  text-align: center;
+  /*text-align: center;*/
   padding: 0;
 }
 
@@ -299,7 +312,7 @@ footer a#footer-email {
 
 /*===============MEDIA QUERIES*/
 
-@media screen and (max-width: 700px) {
+/*@media screen and (max-width: 700px) {
   #alleman {
     width: 49px;
   }
@@ -309,18 +322,38 @@ footer a#footer-email {
   #menu-open {
     margin-top: 13px;
   }
-}
-@media screen and (max-width: 400px) {
+}*/
+@media screen and (max-width: 650px) {
+  main {
+    padding-top: 80px;
+  }
   #alleman {
     display: none;
   }
   .logo {
-    padding: 11px 0 11px 15px;
-    /* left: 0; */
+    padding: 10px 0 11px 15px;
+    /* padding: 50px; */
+    left: 0;
+    top: 0;
     text-align: left;
+    position: fixed;
+  }
+  .menu-btn {
+    position: fixed;
+        padding: 29px 0;
+  }
+  #hamburger {
+    position: fixed
   }
   #menu-open {
     margin-top: 6px;
+  }
+  ul#activities-list, ul#contact-list {
+    padding: 0 15px;
+  }
+  h1.heading-left {
+    text-align: left;
+    padding-left: 15px;
   }
 }
 
@@ -352,6 +385,11 @@ footer a#footer-email {
   main #hr2 {
     display: block;
   }
+
+  .heading-left {
+    text-align: left
+  }
+
   #image-links {
     width: 100%;
     display: inline-block;
