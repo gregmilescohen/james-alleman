@@ -305,6 +305,16 @@ footer a#footer-email {
   padding: 7px;
   margin: auto;
 }
+
+.contact-email {
+  padding-right: 35px;
+}
+.contact-phone {
+  padding-right: 27px;
+}
+.contact-mobile {
+  padding-right: 23px;
+}
 /*===============FOOTER END*/
 
 
@@ -348,6 +358,19 @@ footer a#footer-email {
   #menu-open {
     margin-top: 6px;
   }
+
+  /*in-line image on mobile*/
+  p:first-child::before {
+    display: inline-block;
+    width: 117px;
+    height: 165px;
+    margin-right: 21px;
+    float: left;
+    content: "";
+    background: url("img/j-a.jpg") no-repeat 0 0;
+    background-size: 100%;
+  }
+
   ul#activities-list, ul#contact-list {
     padding: 0 15px;
   }
